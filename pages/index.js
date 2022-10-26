@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Main from '../components/Main'
 import About from '../components/About'
 import Skills from '../components/Skills'
-import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Works from '../components/Works.jsx'
 import Footer from '../components/Footer'
@@ -21,7 +20,6 @@ export default function Home() {
       <Main />
       <About />
       <Skills/>
-      {/* <Projects/> */}
       <Works />
       <Certifications />
       <Contact/>
