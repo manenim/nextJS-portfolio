@@ -15,14 +15,14 @@ const Main = () => {
 
     const nameVariant = {
         hidden: {
-            opacity: 0,
+            opacity: 0.3,
             y: 100
         },
         visible: {
             opacity: 1,
             y: 0,
             transition: {
-                duration: 1,
+                duration: 1.5,
                 delay: 0
             }
         }
@@ -106,17 +106,7 @@ const Main = () => {
         }
 
       }
-      const item5 = {
-        hidden: { opacity: 0 },
-        show: { 
-            opacity: 1,
-            transition: {
-                duration: 2,
-                delay: 3
-            }   
-        }
-
-      }
+      
 
   return (
 <div id='/' className='w-full h-screen text-center'>
