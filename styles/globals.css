@@ -1,26 +1,38 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('http://fonts.cdnfonts.com/css/albula-condensed-pro');
+
+html, body, html:focus-within {
+  scroll-behavior: smooth !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer base {
+  body{
+    @apply bg-[#f5f3f3] text-[#141414] tracking-wide
   }
-  body {
-    color: white;
-    background: black;
+
+  h1,h2,h3,h4,h5,h6{
+    @apply font-bold
   }
+  h1{
+    @apply text-4xl sm:text-5xl md:text-6xl;
+    font-family: 'Albula Condensed Pro', sans-serif;
+                                                
+  }
+
+  h2{
+    @apply text-3xl sm:text-4xl;
+    font-family: 'Albula Condensed Pro', sans-serif;
+                                                
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+  /* button{
+    @apply cursor-pointer shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  } */
 }
+
