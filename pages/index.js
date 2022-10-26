@@ -6,7 +6,7 @@ import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Works from '../components/Works.jsx'
 import Footer from '../components/Footer'
-import Certifications from '../components/certifications'
+import Certifications from '../components/Certifications'
 
 export default function Home() {
   return (

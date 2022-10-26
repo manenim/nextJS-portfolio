@@ -89,9 +89,7 @@ const Navbar = () => {
         'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
-            <Link href = '/'>
               <Image onClick={() => setNav(false)} src = {logo} width = {100} height = {32} alt = "logo" />
-            </Link >
             <div onClick = {handleNav } className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-ponter'>
              <AiOutlineClose />
             </div> 
@@ -116,7 +114,7 @@ const Navbar = () => {
             <Link href = '/#projects'>
               <li onClick={() => setNav(false)} className='py-4 text-sm'>PROJECTS</li>
             </Link>
-            <Link href = '/#certifications'>
+            <Link href = '/#certification'>
               <li onClick={() => setNav(false)} className='py-4 text-sm'>CERTIFICATIONS</li>
             </Link>
             <Link href = '/#contact'>
