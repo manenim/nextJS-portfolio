@@ -234,7 +234,7 @@ const Works = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                        href='https://cryptoland.herokuapp.com' 
+                        href='https://cryptolandfront.herokuapp.com' 
                         target="_blank" rel="noopener noreferrer" 
                         className = "flex rounded-lg justify-center items-center ml-6 bg-transparent w-[12rem] mt-8 text-[#f57309] border-2 border-[#f57309] font-semibold py-1">
                             <FiExternalLink className = "text-[#f57309] mr-2 w-8 h-8 text-xl"/>
