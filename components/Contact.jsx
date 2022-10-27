@@ -99,19 +99,28 @@ const FORM_ENDPOINT = "";
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
   const form = useRef();
-  const [email, setEmail] = useState(false)
+  const [email, setEmail] = useState('')
+  const [name, setName] = useState('')
+  const [message, setMessage] = useState('')
+
+  
 
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async  (e) => {
     
     e.preventDefault() 
+    setEmail('')
+    setName('')
+    setMessage('')
 
-    emailjs.sendForm('service_hj9rpvg', 'template_7cb5s5r', form.current, '3Ant8ShhLcrEWfJHS')
+   await emailjs.sendForm('service_hj9rpvg', 'template_7cb5s5r', form.current, '3Ant8ShhLcrEWfJHS')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
         console.log(error.text);
     });
+
+    alert("Your meeaasge has been sent. Thank you for reaching out.")
   };
 
   if (submitted) {
@@ -148,6 +157,8 @@ const Contact = () => {
             name="user_name"
             className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
             required
+            value={name}
+            onChange = {(e) => setName(e.target.value)}
           />
         </div>
         <div className="mb-3 pt-0">
@@ -158,6 +169,7 @@ const Contact = () => {
             onChange={(e) => setEmail(e.target.value)}
             className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
             required
+            value= {email}
           />
         </div>
         <div className="mb-3 pt-0">
@@ -166,6 +178,8 @@ const Contact = () => {
             name="message"
             className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
             required
+            value={message}
+            onChange = {(e) => setMessage(e.target.value)}
           />
         </div>
         <div className="mb-3 pt-0">
