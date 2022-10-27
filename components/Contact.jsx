@@ -184,7 +184,7 @@ const Contact = () => {
         </div>
         <div className="mb-3 pt-0">
           <button
-            className="bg-[#f57309] disabled:opacity-25 text-white active:bg-[#F7CB1E] flex items-center font-bold uppercase text-sm px-8 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+            className="bg-[#f57309] disabled:opacity-25 text-white active:bg-[#F7CB1E] flex items-center font-bold uppercase text-sm px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]"
             type="submit"
             // disabled = {validate(email)}
           >

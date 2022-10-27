@@ -122,7 +122,7 @@ const Main = () => {
                     </h1>
                 <h1 id="elem" className='py-4 text-[#141414]'>
                     {/* <motion.div initial = "hidden" animate = "visible" variants={descVariant}> */}
-                    A Front-End Web Developer
+                    A Software Developer
                     {/* </motion.div> */}
                 </h1>
                 <div className='py-2 font-normal px-4 text-gray-600 max-w-[100%] md:max-w-[80%] lg:max-w-[60%] m-auto'>

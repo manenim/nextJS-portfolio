@@ -47,7 +47,7 @@ const About = () => {
         <div className='flex flex-col lg:flex-row lg:justify-around lg:items-center'>
             <div className='w-[100%] lg:w-[55%]'>
             <motion.div initial="hidden" whileInView="visible" variants = {about1} viewport={{ once: true }}>
-                <div className='py-1 text-gray-700'>Hello, My name is Manenimabasi Udoh and I am a curiosity-driven Frontend Engineer.</div>
+                <div className='py-1 text-gray-700'>Hello, My name is Manenimabasi Udoh and I am a curiosity-driven Software Engineer.</div>
             
             
                 <div className='py-1 text-gray-700'>I am passionate about building intuitive, high-quality user experiences for the web. 
@@ -72,7 +72,7 @@ const About = () => {
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   href='mailto:manenimabasiudoh@gmail.com' 
-                  className = "flex justify-center items-center border-2 border-[#f57309]  bg-[#f57309] w-[12rem] mt-8 font-bold text-gray-100 py-2 rounded-xl"
+                  className = "flex justify-center items-center border-2 border-[#f57309]  bg-[#f57309] w-[12rem] mt-8 font-bold text-gray-100 py-2 rounded-xl shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]"
                     >Say Hello 👋
                   </motion.a>
     

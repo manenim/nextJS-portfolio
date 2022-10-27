@@ -88,7 +88,7 @@ const Works = () => {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         href='https://github.com/manenim/Fullstack-Ecommerce-Application'  
                         target="_blank" rel="noopener noreferrer" 
-                        className = "flex rounded-lg justify-center items-center border-2 border-[#f57309] bg-[#f57309] w-[12rem] mt-8 text-white font-semibold py-1">
+                        className = "flex rounded-lg justify-center items-center border-2 border-[#f57309] bg-[#f57309] w-[12rem] mt-8 text-white font-semibold py-1 shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]">
                             <AiFillGithub className = "text-white mr-2  w-8 h-8 text-xl"/>
                             Github Repo
                     </motion.a>
@@ -99,7 +99,7 @@ const Works = () => {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         href='https://shopnowfront.herokuapp.com'  
                         target="_blank" rel="noopener noreferrer" 
-                        className = "flex rounded-lg justify-center items-center ml-6 bg-transparent w-[12rem] mt-8 text-[#f57309] border-2 border-[#f57309] font-semibold py-1">
+                        className = "flex rounded-lg justify-center items-center ml-6 bg-transparent w-[12rem] mt-8 text-[#f57309] border-2 border-[#f57309] font-semibold py-1 shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]">
                             <FiExternalLink className = "text-[#f57309] mr-2 w-8 h-8 text-xl"/>
                             Live Site
                     </motion.a>
@@ -157,7 +157,7 @@ const Works = () => {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         href='https://github.com/manenim/Expense-Logger'  
                         target="_blank" rel="noopener noreferrer" 
-                        className = "flex rounded-lg justify-center items-center border-2 border-[#f57309] bg-[#f57309] w-[12rem] mt-8 text-white font-semibold py-1">
+                        className = "flex rounded-lg justify-center items-center border-2 border-[#f57309] bg-[#f57309] w-[12rem] mt-8 text-white font-semibold py-1 shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]">
                             <AiFillGithub className = "text-white mr-2  w-8 h-8 text-xl"/>
                             Github Repo
                     </motion.a>
@@ -168,7 +168,7 @@ const Works = () => {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         href='https://expenselogfront.herokuapp.com' 
                         target="_blank" rel="noopener noreferrer" 
-                        className = "flex rounded-lg justify-center items-center ml-6 bg-transparent w-[12rem] mt-8 text-[#f57309] border-2 border-[#f57309] font-semibold py-1">
+                        className = "flex rounded-lg justify-center items-center ml-6 bg-transparent w-[12rem] mt-8 text-[#f57309] border-2 border-[#f57309] font-semibold py-1 shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]">
                             <FiExternalLink className = "text-[#f57309] mr-2 w-8 h-8 text-xl"/>
                             Live Site
                     </motion.a>
@@ -225,7 +225,7 @@ const Works = () => {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         href='https://github.com/manenim/cryptoland'  
                         target="_blank" rel="noopener noreferrer" 
-                        className = "flex rounded-lg justify-center items-center border-2 border-[#f57309] bg-[#f57309] w-[12rem] mt-8 text-white font-semibold py-1">
+                        className = "flex rounded-lg justify-center items-center border-2 border-[#f57309] bg-[#f57309] w-[12rem] mt-8 text-white font-semibold py-1 shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]">
                             <AiFillGithub className = "text-white mr-2  w-8 h-8 text-xl"/>
                             Github Repo
                     </motion.a>
@@ -236,7 +236,7 @@ const Works = () => {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         href='https://cryptolandfront.herokuapp.com' 
                         target="_blank" rel="noopener noreferrer" 
-                        className = "flex rounded-lg justify-center items-center ml-6 bg-transparent w-[12rem] mt-8 text-[#f57309] border-2 border-[#f57309] font-semibold py-1">
+                        className = "flex rounded-lg justify-center items-center ml-6 bg-transparent w-[12rem] mt-8 text-[#f57309] border-2 border-[#f57309] font-semibold py-1 shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]">
                             <FiExternalLink className = "text-[#f57309] mr-2 w-8 h-8 text-xl"/>
                             Live Site
                     </motion.a>
