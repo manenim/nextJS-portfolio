@@ -131,7 +131,7 @@ const Main = () => {
                 <motion.div initial = "hidden" animate = "show" variants={container}>
                 <div className='flex items-center justify-between max-w-[330px] m-auto pt-8'>
                 <motion.div variants={item1}>
-                <div className='rounded-full  shadow-lg shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <div className='rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a  href = "https://www.linkedin.com/in/manenimabasi-udoh-dev-mani-42b480253/" className='bg-blue' target="_blank" rel="noopener noreferrer">
                             <div className='p-6'>
                                 <FaLinkedinIn className='text-[#141414]' />

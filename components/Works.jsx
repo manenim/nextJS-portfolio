@@ -59,7 +59,7 @@ const Works = () => {
                 <motion.div initial="hidden" whileInView="visible" variants = {work1} viewport={{ once: true }}>
                     <h2 className='py-4'>An EComm fashion store</h2>
                     <p className='py-2 text-gray-600'>A clothing store like no other, for when you need to look sharp for your next event😊. Feel free to check out the wide variety of clothing we have in stock. They’ll make you look fabulous.
-                    Built with react, styled components, redux, for the front end, NodeJS, and express on the backend API, used JWT for authentication and stripe for payment.
+                    Built with react, styled-components, redux, for the front end, NodeJS, and express on the backend API, used JWT for authentication and stripe for payment.
 
                     </p>
                   
@@ -122,8 +122,8 @@ const Works = () => {
                 <motion.div initial="hidden" whileInView="visible" variants = {work1} viewport={{ once: true }}>
 
                     <h2 className='py-4'>Financial Management Application</h2>
-                    <p className='py-2 text-gray-600'>As the slogan goes, “money moves from those who do not manage it to those who do”. This amazing application helps you keep track of your expenses, savings and investment. It visually shows you where your money is really going and truly empowers you to take full charge of your finances.
-                    Built with ReactJS, Redux , TailwindCSS, React-chartsJS on the frontend, NodeJS and Express on the backend, and the Awesome mongoDB as the database of choice.
+                    <p className='py-2 text-gray-600'>As the slogan goes, “money moves from those who do not manage it to those who do”. This amazing application helps you keep track of your expenses, savings, and investment. It visually shows you where your money is really going and truly empowers you to take full charge of your finances.
+                    Built with ReactJS, Redux, TailwindCSS, React-chartsJS on the frontend, NodeJS and Express on the backend, and the Awesome MongoDB as the database of choice.
 
 
                     </p>
@@ -188,7 +188,7 @@ const Works = () => {
                 <div className='w-full lg:w-[48%]'>
                 <motion.div initial="hidden" whileInView="visible" variants = {work1} viewport={{ once: true }}>
                     <h2 className='py-4'>Cryptoland!!✨✨ </h2>
-                    <p className='py-2 text-gray-600'>This project is centered around APIs. I implemented data fetching from two different REST APIs using the Axios library. this application bring to you the latest crypto statistics as well as the latest news in the cryptocurrency universe. Built with ReactJs, Redux, React-router, React-chartjs-2, and styled with Ant-design.
+                    <p className='py-2 text-gray-600'>This project is centered around APIs. I implemented data fetching from two different REST APIs using the Axios library. This application brings you the latest crypto statistics as well as the latest news in the cryptocurrency universe. Built with ReactJs, Redux, React-router, React-chartjs-2, and styled with Ant-design.
                     </p>
                   
                     <div className='grid grid-cols-2 gap-2'>

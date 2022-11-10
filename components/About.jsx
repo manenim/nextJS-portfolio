@@ -63,7 +63,7 @@ const About = () => {
                 <div className='py-1 text-gray-700'>Passion and curiosity are two important traits I live by. I constantly seek to bring new ideas to the table and also devise feasible innovative solutions to complex real-world problems.</div>
 
                 <div className='py-1 text-gray-700'>
-                If you want to get in touch, feel free to reach out and say hello! I promise, I don’t bite.😉
+                If you want to get in touch, feel free to reach out and say hello! I promise I don’t bite.😉
                 </div>
 
 
@@ -75,9 +75,6 @@ const About = () => {
                   className = "flex justify-center items-center border-2 border-[#f57309]  bg-[#f57309] w-[12rem] mt-8 font-bold text-gray-100 py-2 rounded-xl shadow-md hover:shadow-xl hover:shadow-[#afafaf] shadow-[#afafaf]"
                     >Say Hello 👋
                   </motion.a>
-    
-                {/* <a href='mailto:manenimabasiudoh@gmail.com' className = "flex justify-center items-center border-2 border-[#f57309]  bg-[#f57309] w-[12rem] mt-8 font-bold text-gray-100 py-2 rounded-xl">Say Hello 👋</a>
-                </motion.div> */}
                 </motion.div>
             </div>
 

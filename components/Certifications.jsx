@@ -20,7 +20,7 @@ const Certifications = () => {
           </div>
           <div className='w-full lg:w-[42%]'>
             <h2 className='mb-4 mt-8 lg:mt-0 '>Foundations of UX Design</h2>
-            <div>In this program offered by google, I was able to gain some experience in the field of UX design. I was better understood some fundamental UX design concepts including;
+            <div>In this program offered by google, I was able to gain some experience in the field of UX design. I better understood some fundamental UX design concepts including;
           </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-2'>
@@ -70,7 +70,7 @@ const Certifications = () => {
           </div>
           <div className='w-full lg:w-[42%]'>
             <h2 className='mb-4 mt-12 lg:mt-0'>ALX-T Cloud Developer</h2>
-            <div>I recently completed the ALX Cloud developer training program and it was such a blast. I gained hands-on experience working with the AWS cloud technology as well as technologies like docker, google’s Kubernetes and Travis CI. 
+            <div>I recently completed the ALX Cloud developer training program and it was such a blast. I gained hands-on experience working with the AWS cloud technology as well as technologies like docker, google’s Kubernetes, and Travis CI. 
               <div className='pt-2'>Beyond just working with these technologies I better understood a lot about debugging, working with legacy code, and many other useful software development best practices. I also gained hands-on experience working on several challenging but exciting projects including;</div>
             </div>
 
