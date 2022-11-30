@@ -47,7 +47,7 @@ const About = () => {
         <div className='flex flex-col lg:flex-row lg:justify-around lg:items-center'>
             <div className='w-[100%] lg:w-[55%]'>
             <motion.div initial="hidden" whileInView="visible" variants = {about1} viewport={{ once: true }}>
-                <div className='py-1 text-gray-700'>Hello, My name is Manenimabasi Udoh and I am a curiosity-driven Software Engineer.</div>
+                <div className='py-1 text-gray-700'>Hello, My name is Manenimabasi Udoh and I am a curiosity-driven Software Developer.</div>
             
             
                 <div className='py-1 text-gray-700'>I am passionate about building intuitive, high-quality user experiences for the web. 
