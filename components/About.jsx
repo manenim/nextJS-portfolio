@@ -18,7 +18,7 @@ const About = () => {
       opacity: 1,
       y: 0,
       transition: {
-        type: "spring",
+        type: "tween",
         duration: 1.5,
         delay: 0
       }
@@ -33,7 +33,7 @@ const About = () => {
       opacity: 1,
       y: 0,
       transition: {
-        type: "spring",
+        type: "tween",
         duration: 1.5,
         delay: .1,
       }

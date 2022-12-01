@@ -1,12 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { GrMail } from 'react-icons/gr'
-import { annotate } from 'rough-notation';
 import { motion } from 'framer-motion'
-import { Fade, Reveal } from 'react-reveal'
 
 
 
